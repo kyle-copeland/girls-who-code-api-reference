@@ -34,6 +34,9 @@
 | videoEmbeddable | string | any or true | Only return videos that are embeddable
 | part | string | snippet | common delimited list of fields to include in response
 
+### How to Embed Youtube videos based on response
+TODO
+
 ## Flickr 
 ![Flickr Logo](http://icons.iconarchive.com/icons/uiconstock/socialmedia/256/Flickr-icon.png)
 
@@ -51,3 +54,7 @@
 | method | string  | flickr.photos.search | name of flickr API method
 | format | string | json | format of HTTP response
 | nojsoncallback | number | 1 | whether or not to return the response as [JSONP](https://en.wikipedia.org/wiki/JSONP)
+
+## How to convert response into image URLS
+You can construct image urls by taking the response fields and creating URLs with the following pattern https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg
+TODO
