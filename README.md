@@ -3,7 +3,7 @@
 ## Giphy 
 ![Giphy Api](https://developers.giphy.com/static/img/api.c99e353f761d.gif)
 
-**API Key** - VU0MWvV9PyOQln4z3PtKGbHUDiwfZAtm
+**API Key** - `VU0MWvV9PyOQln4z3PtKGbHUDiwfZAtm`
 
 **Endpoint** - http://api.giphy.com/v1/gifs/search
 
@@ -19,7 +19,7 @@
 ## Youtube
 ![Youtube Logo](https://png.icons8.com/color/260/youtube.png)
 
-**API Key** - AIzaSyC-bOTKR-WG8jNw__TKfMQl9WO-0AnsSpc
+**API Key** - `AIzaSyC-bOTKR-WG8jNw__TKfMQl9WO-0AnsSpc`
 
 **Endpoint** -  https://www.googleapis.com/youtube/v3/search
 
@@ -40,7 +40,7 @@ TODO
 ## Flickr 
 ![Flickr Logo](http://icons.iconarchive.com/icons/uiconstock/socialmedia/256/Flickr-icon.png)
 
-**API Key** - 3baa8586f9b7202d3b0e80662c880403
+**API Key** - `3baa8586f9b7202d3b0e80662c880403`
 
 **Endpoint** - https://api.flickr.com/services/rest/
 
