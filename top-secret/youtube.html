@@ -1,0 +1,35 @@
+<html>
+    <head></head>
+    <body>
+        <div id="container">
+
+        </div>
+        <script type="text/javascript">
+          // we can talk about why it would be bad to save this here
+          const key = 'AIzaSyC-bOTKR-WG8jNw__TKfMQl9WO-0AnsSpc';
+          const query = 'Blizzard Entertainment';
+
+
+          window.fetch(
+            'https://www.googleapis.com/youtube/v3/search/?key='
+              + key + '&q='
+              + query + '&safeSearch=strict&type=video&videoEmbeddable=true&part=snippet'
+          )
+            .then((result) => result.json())
+            .then((data) => {
+              return data.items;
+            })
+            .then((videos) => {
+              const container = document.getElementById('container');
+              videos.map((video) => {
+                const iframe = document.createElement("iframe");
+                iframe.width = '560px';
+                iframe.height = '315px';
+                iframe.src = 'https://www.youtube.com/embed/' + video.id.videoId;
+                container.appendChild(iframe);
+              })
+            });
+
+        </script>
+    </body>
+</html>
